@@ -4,7 +4,6 @@ import json
 import pandas as pd
 import s3fs
 import numpy as np
-import matplotlib.pyplot as plt
 
 FS = s3fs.S3FileSystem(anon=False)
 
